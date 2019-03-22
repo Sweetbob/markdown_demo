@@ -6,6 +6,8 @@ import Vnote from '../components/Vnote'
 Vue.use(Router)
 
 export default new Router({
+  // 消除 url中的 #
+  mode: 'history',
   routes: [
     // 设置路由和目标组件
     {
